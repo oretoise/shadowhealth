@@ -3,17 +3,6 @@ import time
 
 
 class Node:
-    """
-    A class to represent a node in a singly linked list.
-
-    Attributes
-    ----------
-    data : int
-        Value of the node object
-    next : object
-        Pointer to following node, initially None
-    """
-
     def __init__(self, data):  
         self.data = data
         self.next = None
